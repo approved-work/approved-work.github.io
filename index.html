@@ -24,16 +24,49 @@
   #header img {
     width: 200px;
     height: auto;
+    padding: 10px;
+    border: 3px solid;
+  }
+  #animation h1, #music h1 {
+    margin: 40px auto;
+  }
+  #animation, #music {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #animation h1, #animation p {
+    color: #E9482F;
+  }
+  #music h1, #music p {
+    color: #23AC4C;
   }
   .link {
-    width: auto;
+    width: 300px;
     display: inline-block;
     text-align: center;
     margin: 10px;
+    padding: 50px 10px;
+    border: 3px dashed;
+  }
+  .link p {
+    font-size: 12px;
+    margin: 4px auto;
   }
   .link-image {
-    width: 200px;
+    width: 250px;
     height: auto;
+  }
+  #animation .link {
+    border-color: #E9482F;
+  }
+  #music .link {
+    color: #23AC4C;
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    width: 40%;
+    border-color: #23AC4C;
   }
 </style>
 </head>
@@ -44,20 +77,20 @@
         <img src="dog-logo.png" />
       </a>
     </div>
-    <div id="video">
-      <h1>VIDEO</h1>
-      <div class="link">
-        <a href="https://youtu.be/9x8f4AB5FcE" target="_blank">
+    <div id="animation">
+      <h1>ANIMATION</h1>
+      <a href="https://youtu.be/9x8f4AB5FcE" target="_blank">
+        <div class="link">
           <img class="link-image" src="something-wild.jpg" />
           <p>ZACH ROMEO - "SOMETHING WILD"</p>
-        </a>
-      </div>
-      <div class="link">
-        <a href="https://youtu.be/Ycsj_byvNZY?t=460" target="_blank">
+        </div>
+      </a>
+      <a href="https://youtu.be/Ycsj_byvNZY?t=460" target="_blank">
+        <div class="link">
           <img class="link-image" src="xportal.jpg" />
           <p>QPAS WORMHOLE/XPORTAL</p>
-        </a>
-      </div>
+        </div>
+      </a>
       <div class="link">
         <a href="https://youtu.be/TI9vm-qyAQU" target="_blank">
           <img class="link-image" src="show-it.jpg" />
@@ -65,20 +98,23 @@
         </a>
       </div>
     </div>
-    <div id="audio">
-      <h1>AUDIO</h1>
-      <div class="link">
-        <a href="https://approved.bandcamp.com/album/trainmusik" target="_blank">
-          <img class="link-image" src="trainmusik.jpg" />
-          <p>TRAINMUSIK</p>
-        </a>
-      </div>
-      <div class="link">
-        <a href="https://lewisdahm.bandcamp.com/releases" target="_blank">
-          <img class="link-image" src="islandbook.jpeg" />
-          <p>Island Book Soundtrack</p>
-        </a>
-      </div>
+    <div id="music">
+      <h1>MUSIC</h1>
+      <a href="https://vimeo.com/751290174" target="_blank">
+        <div class="link">
+          <h3>3RD VOICE TEASER</h3>
+        </div>
+      </a>
+      <a href="https://approved.bandcamp.com/album/trainmusik" target="_blank">
+        <div class="link">
+          <h3>TRAINMUSIK</h3>
+        </div>
+      </a>
+      <a href="https://lewisdahm.bandcamp.com/releases" target="_blank">
+        <div class="link">
+          <h3>ISLAND BOOK SOUNDTRACK</h3>
+        </div>
+      </a>
     </div>
   </div>
 </body>
